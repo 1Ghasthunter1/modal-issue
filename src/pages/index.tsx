@@ -19,6 +19,8 @@ export default function Home() {
       >
         Open Modal
       </div>
+      <div className="h-48"></div>
+
       <MyDialog isOpen={modalVis} setIsOpen={setModalVis} />
     </main>
   );
